@@ -1,0 +1,50 @@
+/* Calculator container */
+.main {
+  width: 275px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  padding: 20px;
+  background-color: LightGrey;
+  border: 1px solid Black;
+  border-radius: 10px;
+
+}
+/* Result input field */
+#res {
+  width: 245px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius:10px;
+}
+
+/* Button container */
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Calculator buttons */
+input[type="button"] {
+  flex-basis: calc(25% - 5px);
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: Grey;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+
+/* Styling specific buttons */
+input[type="button"]:hover {
+  background-color: #e6e6ff;
+}
+
+input[type="button"]:active {
+  background-color: #999;
+}
